@@ -224,38 +224,3 @@ project/
 └── README.md
 ```
 
----
-
-## Example Behaviors
-
-- **"Money deducted but order not received"**
-  - checks payment/order state
-  - decides refund vs reconciliation wait using policy window
-- **"Account blocked"**
-  - checks account status
-  - triggers unblock when blocked
-- **"Order not received, status shipped"**
-  - confirms in-transit state
-  - gives clear wait-and-escalate guidance
-- **"Refund expected but order confirmed"**
-  - identifies contradiction
-  - corrects expectation and suggests proper return/cancel flow
-
----
-
-## Technical Highlights (Interview Ready)
-
-- LangGraph-based explicit agent graph
-- Hybrid LLM + deterministic policy architecture
-- RAG with FAISS + sentence embeddings
-- Confidence-aware autonomous routing
-- Tool-grounded explainable responses
-- Stateful memory + user context carry-forward
-- Admin observability with full traceability
-
----
-
-## Notes
-
-- This project is intentionally engineered as a **customer support intelligence system** with operational decision rules, not a general conversational bot.
-- `.env` is excluded from git. Use `.env.example` as the template.
