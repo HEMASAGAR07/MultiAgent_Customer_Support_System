@@ -1,0 +1,23 @@
+/.env
+
+/.env.*
+
+/.venv/
+/venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.log
+*.sqlite3
+
+.DS_Store
+
+# Streamlit cache (if enabled)
+.streamlit/
+
+# Vector DB indexes can be regenerated; don't push to GitHub.
+/data/vector_index/
+

@@ -1,0 +1,242 @@
+[
+  {
+    "user_id": "user_1",
+    "name": "Vihaan",
+    "email": "vihaan1@yahoo.com",
+    "phone": "9299183953",
+    "account_status": "active",
+    "created_at": "2025-01-02"
+  },
+  {
+    "user_id": "user_2",
+    "name": "Ishaan",
+    "email": "ishaan2@outlook.com",
+    "phone": "9769220086",
+    "account_status": "active",
+    "created_at": "2025-02-07"
+  },
+  {
+    "user_id": "user_3",
+    "name": "Ananya",
+    "email": "ananya3@gmail.com",
+    "phone": "9766220926",
+    "account_status": "active",
+    "created_at": "2025-12-09"
+  },
+  {
+    "user_id": "user_4",
+    "name": "Ananya",
+    "email": "ananya4@yahoo.com",
+    "phone": "9269098355",
+    "account_status": "active",
+    "created_at": "2025-01-02"
+  },
+  {
+    "user_id": "user_5",
+    "name": "Shaurya",
+    "email": "shaurya5@example.com",
+    "phone": "9494729453",
+    "account_status": "blocked",
+    "created_at": "2025-09-14"
+  },
+  {
+    "user_id": "user_6",
+    "name": "Shaurya",
+    "email": "shaurya6@gmail.com",
+    "phone": "9434431727",
+    "account_status": "blocked",
+    "created_at": "2025-10-05"
+  },
+  {
+    "user_id": "user_7",
+    "name": "Vihaan",
+    "email": "vihaan7@example.com",
+    "phone": "9639337311",
+    "account_status": "blocked",
+    "created_at": "2025-12-13"
+  },
+  {
+    "user_id": "user_8",
+    "name": "Vihaan",
+    "email": "vihaan8@outlook.com",
+    "phone": "9471098092",
+    "account_status": "blocked",
+    "created_at": "2025-07-17"
+  },
+  {
+    "user_id": "user_9",
+    "name": "Aarohi",
+    "email": "aarohi9@outlook.com",
+    "phone": "9511891570",
+    "account_status": "blocked",
+    "created_at": "2025-11-04"
+  },
+  {
+    "user_id": "user_10",
+    "name": "Ishaan",
+    "email": "ishaan10@yahoo.com",
+    "phone": "9910077993",
+    "account_status": "active",
+    "created_at": "2025-11-18"
+  },
+  {
+    "user_id": "user_11",
+    "name": "Aditya",
+    "email": "aditya11@example.com",
+    "phone": "9276201773",
+    "account_status": "blocked",
+    "created_at": "2025-06-23"
+  },
+  {
+    "user_id": "user_12",
+    "name": "Myra",
+    "email": "myra12@example.com",
+    "phone": "9701982846",
+    "account_status": "active",
+    "created_at": "2025-06-09"
+  },
+  {
+    "user_id": "user_13",
+    "name": "Kiara",
+    "email": "kiara13@gmail.com",
+    "phone": "9731083357",
+    "account_status": "blocked",
+    "created_at": "2025-09-14"
+  },
+  {
+    "user_id": "user_14",
+    "name": "Vivaan",
+    "email": "vivaan14@gmail.com",
+    "phone": "9106881469",
+    "account_status": "blocked",
+    "created_at": "2025-06-16"
+  },
+  {
+    "user_id": "user_15",
+    "name": "Diya",
+    "email": "diya15@outlook.com",
+    "phone": "9130434330",
+    "account_status": "active",
+    "created_at": "2025-09-04"
+  },
+  {
+    "user_id": "user_16",
+    "name": "Meera",
+    "email": "meera16@example.com",
+    "phone": "9617160907",
+    "account_status": "active",
+    "created_at": "2025-06-07"
+  },
+  {
+    "user_id": "user_17",
+    "name": "Ishaan",
+    "email": "ishaan17@example.com",
+    "phone": "9352900053",
+    "account_status": "active",
+    "created_at": "2025-10-08"
+  },
+  {
+    "user_id": "user_18",
+    "name": "Reyansh",
+    "email": "reyansh18@example.com",
+    "phone": "9370095297",
+    "account_status": "active",
+    "created_at": "2025-02-01"
+  },
+  {
+    "user_id": "user_19",
+    "name": "Myra",
+    "email": "myra19@example.com",
+    "phone": "9727335919",
+    "account_status": "active",
+    "created_at": "2025-12-03"
+  },
+  {
+    "user_id": "user_20",
+    "name": "Saanvi",
+    "email": "saanvi20@gmail.com",
+    "phone": "9171607679",
+    "account_status": "active",
+    "created_at": "2025-08-21"
+  },
+  {
+    "user_id": "user_21",
+    "name": "Atharv",
+    "email": "atharv21@example.com",
+    "phone": "9533417415",
+    "account_status": "blocked",
+    "created_at": "2025-08-18"
+  },
+  {
+    "user_id": "user_22",
+    "name": "Vihaan",
+    "email": "vihaan22@gmail.com",
+    "phone": "9708729781",
+    "account_status": "active",
+    "created_at": "2025-12-25"
+  },
+  {
+    "user_id": "user_23",
+    "name": "Diya",
+    "email": "diya23@example.com",
+    "phone": "9980035466",
+    "account_status": "blocked",
+    "created_at": "2025-09-17"
+  },
+  {
+    "user_id": "user_24",
+    "name": "Ira",
+    "email": "ira24@outlook.com",
+    "phone": "9467234714",
+    "account_status": "blocked",
+    "created_at": "2025-01-13"
+  },
+  {
+    "user_id": "user_25",
+    "name": "Shaurya",
+    "email": "shaurya25@example.com",
+    "phone": "9427515520",
+    "account_status": "active",
+    "created_at": "2025-11-11"
+  },
+  {
+    "user_id": "user_26",
+    "name": "Diya",
+    "email": "diya26@gmail.com",
+    "phone": "9236538351",
+    "account_status": "active",
+    "created_at": "2025-05-16"
+  },
+  {
+    "user_id": "user_27",
+    "name": "Reyansh",
+    "email": "reyansh27@gmail.com",
+    "phone": "9769302727",
+    "account_status": "active",
+    "created_at": "2025-02-06"
+  },
+  {
+    "user_id": "user_28",
+    "name": "Krishna",
+    "email": "krishna28@yahoo.com",
+    "phone": "9591608972",
+    "account_status": "active",
+    "created_at": "2025-07-09"
+  },
+  {
+    "user_id": "user_29",
+    "name": "Vihaan",
+    "email": "vihaan29@gmail.com",
+    "phone": "9636725902",
+    "account_status": "active",
+    "created_at": "2025-08-15"
+  },
+  {
+    "user_id": "user_30",
+    "name": "Vivaan",
+    "email": "vivaan30@gmail.com",
+    "phone": "9048653984",
+    "account_status": "blocked",
+    "created_at": "2025-08-19"
+  }
+]

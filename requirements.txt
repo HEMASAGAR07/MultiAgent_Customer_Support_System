@@ -1,0 +1,12 @@
+streamlit
+google-generativeai
+sentence-transformers
+faiss-cpu
+pandas
+numpy
+filelock
+pydantic
+python-dateutil
+langgraph
+python-dotenv
+

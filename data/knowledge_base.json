@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "category": "payment_issue",
+    "title": "Payment deducted but order not confirmed",
+    "content": "If payment is deducted but order is not confirmed, advise the user to wait up to 24 hours for auto-reconciliation. If the order is not created after 24 hours, initiate a refund. Check payment gateway logs before proceeding.",
+    "keywords": [
+      "payment deducted",
+      "order not confirmed",
+      "failed order"
+    ],
+    "resolution_steps": [
+      "Check transaction status in payment gateway",
+      "Verify order creation status",
+      "If not created, initiate refund",
+      "Inform user about refund SLA"
+    ],
+    "sla_hours": 24
+  },
+  {
+    "id": 2,
+    "category": "refund",
+    "title": "Refund processing time",
+    "content": "Refunds are processed within 5\u20137 business days after initiation. Delays may occur due to bank processing times.",
+    "keywords": [
+      "refund time",
+      "refund delay"
+    ],
+    "resolution_steps": [
+      "Verify refund initiation",
+      "Check payment method",
+      "Inform SLA and provide reference ID"
+    ],
+    "sla_days": 7
+  },
+  {
+    "id": 3,
+    "category": "delivery_delay",
+    "title": "Order delivery delayed",
+    "content": "If an order is delayed, check the courier tracking status. If the shipment is stuck for more than 48 hours, raise a logistics escalation ticket.",
+    "keywords": [
+      "delivery late",
+      "tracking stuck"
+    ],
+    "resolution_steps": [
+      "Fetch tracking details",
+      "Check last update timestamp",
+      "Escalate if >48 hours with no movement"
+    ],
+    "sla_hours": 48
+  },
+  {
+    "id": 4,
+    "category": "account_issue",
+    "title": "Unable to login / account blocked",
+    "content": "For login issues, guide the user to reset password. If account is blocked, verify identity and unblock via admin panel.",
+    "keywords": [
+      "login issue",
+      "account locked"
+    ],
+    "resolution_steps": [
+      "Check account status",
+      "Trigger password reset",
+      "Unblock after verification if required"
+    ],
+    "sla_hours": 2
+  },
+  {
+    "id": 5,
+    "category": "order_cancel",
+    "title": "Cancel order",
+    "content": "Orders can be cancelled before shipment. If already shipped, cancellation is not possible; advise return after delivery.",
+    "keywords": [
+      "cancel order",
+      "order cancellation"
+    ],
+    "resolution_steps": [
+      "Check shipment status",
+      "Cancel if not shipped",
+      "If shipped, guide return process"
+    ],
+    "sla_hours": 1
+  },
+  {
+    "id": 6,
+    "category": "return",
+    "title": "Return process",
+    "content": "Users can initiate a return within 7 days of delivery. Pickup is scheduled within 48 hours after request.",
+    "keywords": [
+      "return item",
+      "exchange"
+    ],
+    "resolution_steps": [
+      "Verify delivery date",
+      "Create return request",
+      "Schedule pickup"
+    ],
+    "sla_days": 7
+  },
+  {
+    "id": 7,
+    "category": "payment_issue",
+    "title": "Unable to pay / payment authorization failed",
+    "content": "When a payment is declined or fails at authorization, first check the transaction status for the order. If the order was not created and the transaction is failed, recommend retrying using a different payment method and confirm the order will be created only after successful authorization. If the order is still missing after 24 hours, initiate a refund as per policy.",
+    "keywords": [
+      "unable to pay",
+      "payment authorization failed",
+      "payment declined",
+      "gateway error",
+      "transaction failed"
+    ],
+    "resolution_steps": [
+      "Check transaction status in the payment gateway for the provided order id",
+      "Verify whether the order was created/confirmed",
+      "If authorization failed and the order is missing, recommend retrying with another payment method",
+      "If the order is still not confirmed after 24 hours, initiate a refund and share the refund reference"
+    ],
+    "sla_hours": 24
+  }
+]
